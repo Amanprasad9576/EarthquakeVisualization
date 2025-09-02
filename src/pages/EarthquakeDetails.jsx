@@ -17,12 +17,23 @@ const EarthquakeDetails = () => {
         <p><strong>Location:</strong> {eq.properties.place}</p>
         <p><strong>Time:</strong> {new Date(eq.properties.time).toLocaleString()}</p>
         <p><strong>Coordinates:</strong> {lat}, {lon}</p>
+        <a
+          href={eq.properties.url}
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-600 underline"
+        >
+          More Info
+        </a>
       </div>
+
+      {/* Map with single earthquake focused */}
       <div className="flex-1">
-        <EarthquakeMap earthquakes={[eq]} /> {/* Show only this quake */}
+        <EarthquakeMap earthquakes={[eq]} /> 
       </div>
     </div>
   );
 };
 
 export default EarthquakeDetails;
+
