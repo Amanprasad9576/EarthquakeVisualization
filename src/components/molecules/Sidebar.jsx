@@ -20,8 +20,8 @@ function Sidebar({
           Recent Earthquakes
         </h1>
 
-        {/* Filter */}
-        <div className="flex flex-col gap-2">
+        
+        <div className="flex flex-col gap-2">     {/* Filter */}
           <label htmlFor="magnitude" className="text-sm font-medium">
             Minimum Magnitude
           </label>
@@ -36,8 +36,8 @@ function Sidebar({
           />
         </div>
 
-        {/* Range Buttons */}
-        <div className="flex flex-col gap-2">
+        
+        <div className="flex flex-col gap-2">    {/* Range Buttons */}
           <Button
             onClick={onDayClick}
             className="bg-yellow-600 hover:bg-yellow-700"
@@ -58,8 +58,8 @@ function Sidebar({
           </Button>
         </div>
 
-        {/* Earthquake List */}
-        <div className="flex-1 overflow-y-auto">
+        
+        <div className="flex-1 overflow-y-auto">   {/* Earthquake List */}
           <EarthquakeList
             earthquakes={earthquakes}
             loading={loading}

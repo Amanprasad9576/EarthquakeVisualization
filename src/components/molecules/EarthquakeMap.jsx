@@ -1,10 +1,6 @@
-// src/components/EarthquakeMap.jsx
 import { MapContainer, TileLayer, CircleMarker, Popup } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import "leaflet/dist/leaflet.css";
-
-
-
 
 const getMarkerColor = (mag) => {
   if (mag >= 5) return "red";      // Strong
@@ -13,8 +9,8 @@ const getMarkerColor = (mag) => {
 };
 
 const getMarkerSize = (mag) => {
-  if (mag <= 1) return 4;
-  if (mag <= 3) return 8;
+  if (mag <= 1) return 6;
+  if (mag <= 3) return 10;
   if (mag <= 5) return 14;
   return 20; // very strong quakes
 };

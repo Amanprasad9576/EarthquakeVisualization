@@ -1,12 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Earthquake Visualization Web App
 
-Currently, two official plugins are available:
+An interactive web application to visualize earthquake data on a map, filter by time range (day, week, month), and view detailed earthquake information.
+The app uses the USGS Earthquake API to fetch real-time earthquake data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Fetch earthquake data from the USGS API
+ Filter by Past Day, Past Week, or Past Month
+ Minimum magnitude filter to only display significant earthquakes
+ Interactive map visualization using Leaflet
+ Sidebar listing all earthquakes with clickable entries
+ Click on an earthquake to view detailed information
+ Map zooms in and points to the exact earthquake location on details page
+
+
+Tech Stack
+
+Frontend: React (Vite), Tailwind CSS
+Maps: React-Leaflet + Leaflet
+Routing: React Router DOM
+API Calls: Axios
+Data Source: USGS Earthquake API
+
+
+Clone the Repo 
+
+git clone https://github.com/Amanprasad9576/EarthquakeVisualization.git
+cd EarthquackVisualization
+npm install
+npm run dev   
+
+http://localhost:5173/

@@ -1,4 +1,3 @@
-// src/pages/Dashboard.jsx
 import { useEffect } from "react";
 import Sidebar from "../components/molecules/Sidebar";
 import EarthquakeMap from "../components/molecules/EarthquakeMap";

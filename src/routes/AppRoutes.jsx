@@ -6,11 +6,9 @@ import EarthquakeDetails from "../pages/EarthquakeDetails";
 function AppRoutes() {
   return (
     <Routes>
-      {/* Main Dashboard */}
+      
       <Route path="/" element={<Dashboard />} />
-
-      {/* Earthquake Details Page */}
-      <Route path="/earthquake/:id" element={<EarthquakeDetails />} />
+      <Route path="/earthquake/:id" element={<EarthquakeDetails />} />      
     </Routes>
   );
 }

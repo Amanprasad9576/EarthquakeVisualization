@@ -27,8 +27,7 @@ const EarthquakeDetails = () => {
         </a>
       </div>
 
-      {/* Map with single earthquake focused */}
-      <div className="flex-1">
+      <div className="flex-1"> 
         <EarthquakeMap earthquakes={[eq]} /> 
       </div>
     </div>

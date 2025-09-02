@@ -1,4 +1,3 @@
-// src/components/molecules/EarthquakeList.jsx
 import { useNavigate } from "react-router-dom";
 
 function EarthquakeList({ earthquakes, loading, error }) {

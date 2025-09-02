@@ -14,7 +14,7 @@ export function useEarthquakeControls() {
   );
 
   return {
-    earthquakes: filteredEarthquakes, // ✅ Always return filtered
+    earthquakes: filteredEarthquakes, 
     loading,
     error,
     getEarthquakes,

@@ -1,5 +1,4 @@
 
-
 function Navbar() {
     return (
       <div className="flex h-[50px] w-full items-center justify-between bg-gray-600 px-6 text-white shadow-md">
