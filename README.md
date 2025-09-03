@@ -40,5 +40,5 @@
 
 ## Home Page
 
-![Home Page Screenshot](.screenshots/Image1.png)
-![Detail Page Screenshot](.screenshots/Image2.png)
+![Home Page Screenshot](./screenshots/Image1.png)
+![Detail Page Screenshot](./screenshots/Image2.png)
