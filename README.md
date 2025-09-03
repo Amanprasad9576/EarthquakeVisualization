@@ -27,9 +27,18 @@
 
 ### Clone the Repo 
 
-git clone https://github.com/Amanprasad9576/EarthquakeVisualization.git
-cd EarthquackVisualization
- ```npm install
- ```npm run dev   
+```git clone https://github.com/Amanprasad9576/EarthquakeVisualization.git
+```cd EarthquakeVisualization
+```npm install
+```npm run dev 
+
+## Local  Machine
 
 ```http://localhost:5173/
+
+##  Screenshots
+
+## Home Page
+
+![Home Page Screenshot](.screenshots/Image1.png)
+![Detail Page Screenshot](.screenshots/Image2.png)
