@@ -40,5 +40,6 @@
 
 ## Home Page
 
-![Home Page Screenshot](./screenshots/Image1.png)
-![Detail Page Screenshot](./screenshots/Image2.png)
+
+![Home Page Screenshot](https://github.com/user-attachments/assets/eb1fe748-0adc-44a1-a03b-ba044de75753)
+![Detail Page Screenshot][Detail Page Screenshot](https://github.com/user-attachments/assets/b94ada4e-1598-470c-967b-bdb6eb9de895)
