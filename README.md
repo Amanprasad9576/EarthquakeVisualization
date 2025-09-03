@@ -42,4 +42,8 @@
 
 
 ![Home Page Screenshot](https://github.com/user-attachments/assets/eb1fe748-0adc-44a1-a03b-ba044de75753)
-![Detail Page Screenshot][Detail Page Screenshot](https://github.com/user-attachments/assets/b94ada4e-1598-470c-967b-bdb6eb9de895)
+![Detail Page Screenshot](https://github.com/user-attachments/assets/b94ada4e-1598-470c-967b-bdb6eb9de895)
+
+
+![Home Page Screenshot]<img width="1440" height="813" alt="Screenshot 2025-09-03 at 2 08 44 PM" src="https://github.com/user-attachments/assets/fc71059e-df8f-4a87-8fdf-b8261d41d513" />
+![Detail Page Screenshot]<img width="1440" height="813" alt="Screenshot 2025-09-03 at 2 09 00 PM" src="https://github.com/user-attachments/assets/67d58351-d658-4409-8833-28574cdcb16f" />
